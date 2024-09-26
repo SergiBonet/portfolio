@@ -1,0 +1,24 @@
+:root{
+    --primary:#040b15fc;
+}
+
+.Portfolio{
+    justify-content: center;
+    width: 88vw;
+    height: 97vh;
+    background-color: var(--primary);
+    z-index: 1;
+    color: aliceblue;
+    margin: 0.1vh 6vw 6vh 6vw;
+    border-radius: 20px;
+    overflow-y: auto;
+    margin-top: 0px;
+}
+
+.Portfolio::-webkit-scrollbar {
+    width: 0px;
+}
+
+.Navbar{
+    width: 88vw;
+}
